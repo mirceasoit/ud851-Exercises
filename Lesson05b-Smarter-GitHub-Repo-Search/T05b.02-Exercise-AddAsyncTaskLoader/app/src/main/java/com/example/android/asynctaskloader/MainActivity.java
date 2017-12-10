@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements
         // COMPLETED (19) Create a bundle called queryBundle
         Bundle queryBundle = new Bundle();
         // COMPLETED (20) Use putString with SEARCH_QUERY_URL_EXTRA as the key and the String value of the URL as the value
-        queryBundle.putString(SEARCH_QUERY_URL_EXTRA, githubQuery);
+        queryBundle.putString(SEARCH_QUERY_URL_EXTRA, githubSearchUrl.toString());
         // COMPLETED (21) Call getSupportLoaderManager and store it in a LoaderManager variable
         LoaderManager loaderManager = getSupportLoaderManager();
         // COMPLETED (22) Get our Loader by calling getLoader and passing the ID we specified
