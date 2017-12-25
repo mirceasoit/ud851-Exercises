@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.example.android.waitlist.data.WaitlistContract;
 
 
-public class GuestListAdapter extends RecyclerView.Adapter<GuestListAdapter.GuestViewHolder> {
+public class  GuestListAdapter extends RecyclerView.Adapter<GuestListAdapter.GuestViewHolder> {
 
     // Holds on to the cursor to display the waitlist
     private Cursor mCursor;
