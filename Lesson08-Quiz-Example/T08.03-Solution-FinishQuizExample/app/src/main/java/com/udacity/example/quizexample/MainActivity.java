@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView mWordTextView, mDefinitionTextView;
     private Button mButton;
-
     // This state is when the word definition is hidden and clicking the button will therefore
     // show the definition
     private final int STATE_HIDDEN = 0;
